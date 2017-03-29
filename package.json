@@ -54,7 +54,7 @@
     "test": "node-debug server.js"
   },
   "engines": {
-    "node": "4.4.7"
+    "node": "7.6.0"
   },
   "license": "UNLICENSED",
   "private": true
