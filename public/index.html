@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	     <meta charset = "utf-8" />
+	     <link rel="stylesheet" href='css/app.css'>
+	     <title> WEB RTC </title>
+    </head>
+    <body>
+        <div class="parent-div">
+         	<!--<div class="local-video-div">
+         	</div>
+         	<div class="remote-video-div">
+         	</div>-->
+            <div id="login-page" class="page">
+      <h2>Login As</h2>
+      <input type="text" id="username" />
+      <button id="login">Login</button>
+    </div>
+
+    <div id="call-page" class="page">
+      <video id="yours" autoplay></video>
+      <video id="theirs" autoplay></video>
+      <input type="text" id="their-username" />
+      <button id="call">Call</button>
+      <button id="hang-up">Hang Up</button>
+    </div>
+        </div>
+        <!--<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->
+        <script src="lib/jquery-2.1.1.js"></script>
+        <script src="dist/production.js"></script>
+        <script src="js/template.js"></script>
+    </body>
+</html>    

@@ -1,0 +1,50 @@
+.parent-div{
+	border: 1px solid;
+    min-height: 500px;
+    padding: 10px;
+}
+.local-video-div,.remote-video-div{
+    width: 49.5%;
+    float: left;
+    border: 0.5px solid darkred;
+    height: 500px;
+    text-align: center;
+}
+.local-video-div{
+	float: left;
+}
+.remote-video-div{
+    float: right;
+}
+  body {
+        background-color: #3D6DF2;
+        margin-top: 15px;
+        font-family: sans-serif;
+        color: white;
+      }
+
+      video {
+        background: black;
+        border: 1px solid gray;
+      }
+
+      .page {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+      }
+
+      #yours {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+
+      #theirs {
+        width: 500px;
+        height: 500px;
+      }

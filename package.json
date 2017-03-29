@@ -1,0 +1,61 @@
+{
+  "name": "web-rtc",
+  "title": "web-rtc",
+  "description": "web-rtc-video-chat",
+  "author": "Abhijit Mallik",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhijitmallik/webapp-webrtc.git"
+  },
+  "maintainers": [
+    {
+      "name": "Abhijit Mallik",
+      "email": "abhijit_mallik@gensler.com"
+    }
+  ],
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bunyan": "1.5.x",
+    "bunyan-middleware": "^0.3.1",
+    "co": "^4.6.0",
+    "config": "1.19.x",
+    "cookie-parser": "^1.4.3",
+    "cookies": "0.5.x",
+    "dateformat": "~1.0.6-1.2.3",
+    "entities": "1.1.x",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "grunt": "0.4.x",
+    "grunt-contrib-clean": "0.7.x",
+    "grunt-contrib-concat": "0.5.x",
+    "grunt-contrib-csslint": "0.5.x",
+    "grunt-contrib-cssmin": "0.14.x",
+    "grunt-contrib-jshint": "0.12.x",
+    "grunt-contrib-uglify": "0.11.x",
+    "grunt-css": "0.5.x",
+    "grunt-jsbeautifier": "0.1.x",
+    "http-proxy": "^1.14.0",
+    "morgan": "^1.7.0",
+    "node-fetch": "^1.6.3",
+    "node-schedule": "^1.2.0",
+    "session-file-store": "^0.2.2",
+    "ws" : "2.2.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-nodemon": "^0.4.2",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node-debug server.js"
+  },
+  "engines": {
+    "node": "4.4.7"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
