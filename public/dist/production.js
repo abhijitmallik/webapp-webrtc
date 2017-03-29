@@ -23,7 +23,7 @@ if(!this.webrtc.app){
 }
 (function(){
    var self = this;	
-   var connection = new WebSocket('ws://10.20.17.41:4000'),
+   var connection = new WebSocket('ws://localhost:4000'),
     name = "";
 
 var loginPage = document.querySelector('#login-page'),
