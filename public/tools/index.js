@@ -6,7 +6,7 @@ if(!this.webrtc.app){
 }
 (function(){
    var self = this;	
-   var connection = new WebSocket('ws://localhost:4000'),
+   var connection = new WebSocket('ws://'+window.location.host),
     name = "";
 
 var loginPage = document.querySelector('#login-page'),
