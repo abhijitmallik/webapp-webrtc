@@ -23,8 +23,8 @@ if(!this.webrtc.app){
 }
 (function(){
    var self = this;	
-   var connection = new WebSocket('https://'+window.location.host),
-    name = "";
+   var connection = new WebSocket('wss://'+window.location.host),
+    name = ""; 
 
 var loginPage = document.querySelector('#login-page'),
     usernameInput = document.querySelector('#username'),
