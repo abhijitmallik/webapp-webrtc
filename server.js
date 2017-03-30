@@ -8,7 +8,6 @@ const connec = require('./backend/connection');
 
 
 var app = express();
-console.log("====process.env.PORT====",process.env.PORT);
 app.set('port', process.env.PORT || 4000);
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended: false}));

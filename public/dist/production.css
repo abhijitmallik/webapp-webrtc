@@ -1,22 +1,95 @@
 .parent-div{
-	border: 1px solid;
-    min-height: 500px;
+  min-height: 500px;
+  padding: 10px;
+}
+.button-primary{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+    border: none;
+    font-family: KievitLight;
+    font-size: 16px;
+    background: #FAA633;
+    height: 33px;
+    line-height: 33px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
+.button-primary:hover{
+   background:#f99c2f;
+}
+.parent-div .login-div{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  height: 150px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.parent-div .login-view .title{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  top:10px;
+  color:red;
+}
+.parent-div .login-view{
+    padding: 20px;
+    box-shadow: 0px 1px 3px 0px rgba(34,34,34,0.25);
+    background: #ffffff;
+    /* position: relative; */
+    width: 300px;
+    margin: 0 auto;
+    height: 100px;
+}
+.parent-div .login-view button{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100px;
+}
+.parent-div .login-div .user-name{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 20px;
+ }
+ .parent-div .login-div .user-name input{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    width: 200px;
+    height: 10px;
     padding: 10px;
-}
-.local-video-div,.remote-video-div{
-    width: 49.5%;
-    float: left;
-    border: 0.5px solid darkred;
-    height: 500px;
-    text-align: center;
-}
+ }
 .local-video-div{
-	float: left;
+	  
+}
+.local-video-div .local-video{
+  height: 90%;
+  width: 60%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: auto;
 }
 .remote-video-div{
-    float: right;
+  float: right;
 }
-  body {
+video{
+  background: black;
+  border: 1px solid gray;
+}
+  /*body {
         background-color: #3D6DF2;
         margin-top: 15px;
         font-family: sans-serif;
@@ -47,4 +120,4 @@
       #theirs {
         width: 500px;
         height: 500px;
-      }
+      }*/

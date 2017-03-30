@@ -4,7 +4,9 @@ module.exports = function(grunt){
 
 	var jsFiles = [
         'public/js/template.js',
-        'public/tools/index.js'
+        'public/tools/connection.js',
+        //'public/tools/index.js'
+        'public/tools/app.js'
 	];
 
 	var cssFiles = [
@@ -57,7 +59,8 @@ module.exports = function(grunt){
                     gensler: true,
                     _:true,
                     moment:true,
-                    base64:true
+                    base64:true,
+                    RTCPeerConnection:true
                 },
                 esversion: 6
             }
