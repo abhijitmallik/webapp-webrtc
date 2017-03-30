@@ -15,7 +15,11 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-
+app.use((req, res, next) => {
+	console.log("121212121212121212121212121212121212");
+    res.redirect(['https://abhijit-webrtc', req.url].join(''));
+    next();
+});
 
 const server = http.createServer(app).listen(app.get('port'), () => {
   console.log('Express server listening on port', app.get('port'));
