@@ -105,7 +105,7 @@
     padding: 10px;
  }
  .local-video-div .remote-video{
-    display: inline;
+    display: none;
     position: absolute;
     height: 25%;
     bottom: 20px;
