@@ -60,7 +60,9 @@ module.exports = function(grunt){
                     _:true,
                     moment:true,
                     base64:true,
-                    RTCPeerConnection:true
+                    RTCPeerConnection:true,
+                    RTCSessionDescription:true,
+                    RTCIceCandidate:true
                 },
                 esversion: 6
             }

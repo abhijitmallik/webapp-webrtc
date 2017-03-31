@@ -34,7 +34,7 @@
   right: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 50px;
+  width: 110px;
   top:10px;
   color:red;
 }
@@ -46,6 +46,39 @@
     width: 300px;
     margin: 0 auto;
     height: 100px;
+}
+.local-view-div .local-user-name{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto 0px;
+    text-align: center;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: ghostwhite;
+}
+.local-view-div .call-button{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    width: 400px;
+    padding: 0px;
+}
+.local-view-div .remote-video{
+    display: none;
+}
+.local-view-div .call-button input{
+    margin-right: 10px;
+    width: 200px;
+    height: 20px;
+}
+.local-view-div .call-button button{
+    width: 100px;
+    position: static;
 }
 .parent-div .login-view button{
     position: absolute;
