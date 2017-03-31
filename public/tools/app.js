@@ -12,8 +12,8 @@ if(!this.webrtc.app){
 	var yourConnection ="";
 	var otherUser = "";
 	var remoteVideo = "";
-	connection = new WebSocket('ws://'+window.location.host);
-	$(".login-div").append(this.webrtc.views.login);
+	connection = new WebSocket('wss://'+window.location.host);
+	$(".login-div").append(this.webrtc.views.login);  
 
     var send = function(message){
 		if (connectedUser) {
