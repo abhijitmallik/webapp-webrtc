@@ -104,6 +104,15 @@
     height: 10px;
     padding: 10px;
  }
+ .local-video-div .remote-video{
+    display: inline;
+    position: absolute;
+    height: 25%;
+    bottom: 20px;
+    right: 0px;
+    /* left: 550px; */
+    margin: 0px auto;
+ }
 .local-video-div{
 	  
 }
