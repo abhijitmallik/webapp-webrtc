@@ -37,7 +37,7 @@ if(!this.webrtc.app){
 	var yourConnection ="";
 	var otherUser = "";
 	var remoteVideo = "";
-	connection = new WebSocket('wss://'+window.location.host);
+	connection = new WebSocket('ws://'+window.location.host);
 	$(".login-div").append(this.webrtc.views.login);  
 
     var send = function(message){
@@ -67,9 +67,14 @@ if(!this.webrtc.app){
 	  // Setup stream listening
 	  yourConnection.addStream(stream);
 	  yourConnection.onaddstream = function (e) {
-	  	$(".local-view-div").find(".remote-video").show();
 	    remoteVideo = document.querySelector('#remoteVideoId');
 	    remoteVideo.src = window.URL.createObjectURL(e.stream);
+	    $("#localVideoId").removeClass("local-video");
+	    $("#localVideoId").addClass("remote-video");
+	    $("#remoteVideoId").removeClass("remote-video");
+	    $("#remoteVideoId").addClass("local-video");
+	    //.local-video-div .remote-video
+	    $(".local-video-div").find(".remote-video").show();
 	  };
 
 	  // Setup ice handling
