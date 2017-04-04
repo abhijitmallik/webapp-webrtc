@@ -10,7 +10,7 @@ if(!this.webrtc.app){
 	var connectedUser = "";
 	var stream = "";
 	var yourConnection ="";
-	var otherUser = ""; 
+	var otherUser = "";     
 	var remoteVideo = "";
 	connection = new WebSocket('wss://'+window.location.host);
 	$(".login-div").append(this.webrtc.views.login);  
